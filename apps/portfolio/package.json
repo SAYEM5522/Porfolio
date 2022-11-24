@@ -1,5 +1,6 @@
-{ "name": "portfolio",
-"version": "0.0.0",
+{
+  "name": "portfolio",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -7,9 +8,14 @@
     "start": "next start"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.9.0",
+    "framer-motion": "^7.6.12",
     "next": "latest",
+    "next-themes": "^0.2.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-icons": "^4.6.0",
+    "react-redux": "^8.0.5"
   },
   "devDependencies": {
     "@types/node": "18.11.3",
