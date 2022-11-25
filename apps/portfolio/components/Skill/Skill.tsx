@@ -87,6 +87,8 @@ const SkillItem=[
 const Skill = () => {
   return (
    <div className='flex  mt-7 m-1 w-96 flex-wrap '>
+    <h4 className='text-3xl font-medium'>SKILL</h4>
+    <p className='text-[16px]' >HOVER OVER A SKILL FOR CURRENT PROFIECIENCY </p>
     {
       SkillItem.map((item,index)=>{
         return(
@@ -96,7 +98,7 @@ const Skill = () => {
           alt={item.name}
           width="200"
           height="200"
-          className="h-16 w-16 rounded-3xl hover:-z-20 "
+          className="h-16 w-16 rounded-3xl hover:-z-20  "
           layout='full'
           />
           </div>

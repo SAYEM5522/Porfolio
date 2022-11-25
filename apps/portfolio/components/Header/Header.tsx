@@ -24,7 +24,7 @@ const Header = () => {
     setTheme(theme === 'light' ? 'dark' : 'light')
   },[mode,theme])
   return (
-    <div className='flex  items-center justify-evenly'>
+    <div className='flex  items-center justify-evenly mt-2'>
       <div className='w-96 invisible flex-1 ml-5 md:visible'>
        <h2 className='text-2xl text-black font-medium italic cursor-pointer dark:text-white'>Sayem</h2>
       </div>
